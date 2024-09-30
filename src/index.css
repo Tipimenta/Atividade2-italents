@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1{
+  color: red;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+input{
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button{
+  background-color: orange;
+  padding: 8px 12px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+  margin-bottom: 10px;
+}
+
+button:hover{
+  background-color: rgb(210, 124, 11) ;
+}
+
+#mensagem{
+  font-size: 20px;
+}
